@@ -11,3 +11,13 @@ obj/Debug/netcoreapp2.0/QuickstreamAPI.AssemblyInfo.cs
 obj/Debug/netcoreapp2.0/QuickstreamAPI.AssemblyInfoInputs.cache
 obj/Debug/netcoreapp2.0/QuickstreamAPI.csproj.CoreCompileInputs.cache
 obj/Debug/netcoreapp2.0/QuickstreamAPI.csproj.FileListAbsolute.txt
+bin/Debug/netcoreapp2.0/Mono.Cecil.dll
+bin/Debug/netcoreapp2.0/QuickstreamAPI.runtimeconfig.dev.json
+bin/Debug/netcoreapp2.0/nunit.engine.netstandard.dll
+bin/Debug/netcoreapp2.0/NUnit3.TestAdapter.dll
+bin/Debug/netcoreapp2.0/nunit_random_seed.tmp
+bin/Debug/netcoreapp2.0/QuickstreamAPI.runtimeconfig.json
+obj/project.assets.json
+obj/QuickstreamAPI.csproj.nuget.g.targets
+obj/QuickstreamAPI.csproj.nuget.cache
+obj/QuickstreamAPI.csproj.nuget.g.props

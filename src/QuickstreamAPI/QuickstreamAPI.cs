@@ -16,9 +16,9 @@ namespace QuickstreamAPI
 
         public Configuration Configuration { get; set; }
 
-        public QuickstreamAPI()
+        public QuickstreamAPI(Environment environment, string publishableKey, string secretKey)
         {
-            Configuration = new Configuration();
+            Configuration = new Configuration(environment, publishableKey, secretKey);
         }
     }
 }

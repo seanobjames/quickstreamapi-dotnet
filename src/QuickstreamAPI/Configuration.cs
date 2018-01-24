@@ -13,6 +13,11 @@ namespace QuickstreamAPI
             get { return "1"; }
         }
 
+        public static string ClientLibraryVersion
+        {
+            get { return "0.1"; }
+        }
+
         public string PublishableKey { get; set; }
         public string SecretKey { get; set; }
 
@@ -25,27 +30,22 @@ namespace QuickstreamAPI
         {
             get { return timeout == 0 ? 60000 : timeout; }
             set { timeout = value; }
-        }
-
-        public Configuration()
-        {
-
-        }
-        public Configuration( Environment environment, string supplierBusinessCode, string publishableKey, string secretKey ) : this()
+        }       
+        public Configuration( Environment environment, string publishableKey, string secretKey )
         {
             if( environment == null )
             {
-                throw new ConfigurationException("Environment is required.");
+                throw new ConfigurationException("environment must be set");
             }
 
             if( publishableKey == null )
             {
-                throw new ConfigurationException("Publishable Key is required.");
+                throw new ConfigurationException("publishableKey must be set");
             }
 
             if( secretKey == null )
             {
-                throw new ConfigurationException("Secrety Key is required.");
+                throw new ConfigurationException("secretKey must be set");
             }
 
             Environment = environment;

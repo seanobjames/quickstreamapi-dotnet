@@ -4,10 +4,10 @@ namespace QuickstreamAPI
 {
     public class Environment
     {
-        public static string theDefaultDevelopmentBaseURL = "http://localhost";
-        public static string theDefaultDevelopmentPort = "7001";
-        public static string theDevelopmentBaseURLSysEnvName = "DEV_BASE_URL";
-        public static string theDevelopmentPortSysEnvName = "DEV_PORT";
+        public const string theDefaultDevelopmentBaseURL = "http://localhost";
+        public const string theDefaultDevelopmentPort = "7001";
+        public const string theDevelopmentBaseURLSysEnvName = "DEV_BASE_URL";
+        public const string theDevelopmentPortSysEnvName = "DEV_PORT";
 
         public string EnvironmentName { get; private set; }
         public string BaseURL { get; private set; }

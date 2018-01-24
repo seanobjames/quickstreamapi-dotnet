@@ -8,9 +8,9 @@ namespace QuickstreamAPI.Tests
     public class ConfigurationTest
     {
         [Test]
-        public void ConfigurationMissingParameters_ThrowsConfigurationException()
+        public static void ConfigurationMissingParameters_ThrowsConfigurationException()
         {
-            Assert.Throws<ConfigurationException>(() => new Configuration());
+            Assert.Throws<ConfigurationException>(() => new Configuration(null, "", ""));
         }
     }
 }
