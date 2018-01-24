@@ -13,7 +13,6 @@ namespace QuickstreamAPI
             get { return "1"; }
         }
 
-        public string SupplierBusinessCode { get; set; }
         public string PublishableKey { get; set; }
         public string SecretKey { get; set; }
 
@@ -39,11 +38,6 @@ namespace QuickstreamAPI
                 throw new ConfigurationException("Environment is required.");
             }
 
-            if( supplierBusinessCode == null )
-            {
-                throw new ConfigurationException("Supplier Business Code is required.");
-            }
-
             if( publishableKey == null )
             {
                 throw new ConfigurationException("Publishable Key is required.");
@@ -55,7 +49,6 @@ namespace QuickstreamAPI
             }
 
             Environment = environment;
-            SupplierBusinessCode = supplierBusinessCode;
             PublishableKey = publishableKey;
             SecretKey = secretKey;
         }

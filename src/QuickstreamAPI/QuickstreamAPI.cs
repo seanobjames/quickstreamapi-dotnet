@@ -2,12 +2,6 @@ namespace QuickstreamAPI
 {
     public class QuickstreamAPI : IQuickstreamAPI
     {
-        public virtual string SupplierBusinessCode 
-        {
-            get { return Configuration.SupplierBusinessCode; }
-            set { Configuration.SupplierBusinessCode = value; }
-        }
-
         public virtual string PublishableKey 
         {
             get { return Configuration.PublishableKey; }
