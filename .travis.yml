@@ -1,4 +1,7 @@
 language: csharp
-solution: QuickstreamAPI.sln
+mono: none
+dotnet: 2.0
+script:
+ - dotnet restore
 after_success:
   - bash <(curl -s https://codecov.io/bash)
