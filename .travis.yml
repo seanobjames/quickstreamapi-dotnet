@@ -2,5 +2,5 @@ language: csharp
 solution: QuickstreamAPI.sln
 after_success:
   - bash <(curl -s https://codecov.io/bash > codecov
-chmod +x codecov
-./codecov -f "QuickstreamAPIDotNet_coverage.xml" -t 9340ef25-ff88-4fc4-8c6b-ed0ddef4ff9f
+  chmod +x codecov
+./codecov -f "QuickstreamAPIDotNet_coverage.xml" -t 9340ef25-ff88-4fc4-8c6b-ed0ddef4ff9f)
