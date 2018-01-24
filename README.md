@@ -2,7 +2,7 @@
 
 The Quickstream REST API .Net library provides integration across the Quickstream platform.
 
-![Build Status](https://travis-ci.org/seanobjames/quickstreamapi-dotnet.svg?branch=master)
+![Build Status](https://travis-ci.org/seanobjames/quickstreamapi-dotnet.svg?branch=master) [![codecov](https://codecov.io/gh/seanobjames/quickstreamapi-dotnet/branch/master/graph/badge.svg)](https://codecov.io/gh/seanobjames/quickstreamapi-dotnet)
 
 ## Dependencies
 
