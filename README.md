@@ -1,2 +1,1 @@
-# quickstreamapi-dotnet
-Quickstream REST API - .Net Client Library
+# Quickstream REST API - .Net Client Library

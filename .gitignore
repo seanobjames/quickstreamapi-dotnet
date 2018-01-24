@@ -1,0 +1,17 @@
+obj/dotnet.csproj.nuget.cache
+bin/Debug/netcoreapp2.0/QuickstreamAPI.dll
+bin/Debug/netcoreapp2.0/QuickstreamAPI.pdb
+bin/Debug/netcoreapp2.0/QuickstreamAPI.deps.json
+obj/dotnet.csproj.nuget.g.props
+obj/dotnet.csproj.nuget.g.targets
+obj/project.assets.json
+obj/Debug/netcoreapp2.0/dotnet.AssemblyInfo.cs
+obj/Debug/netcoreapp2.0/dotnet.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp2.0/dotnet.csproj.CoreCompileInputs.cache
+obj/Debug/netcoreapp2.0/dotnet.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp2.0/QuickstreamAPI.dll
+obj/Debug/netcoreapp2.0/QuickstreamAPI.pdb
+obj/Debug/netcoreapp2.0/QuickstreamAPI.AssemblyInfo.cs
+obj/Debug/netcoreapp2.0/QuickstreamAPI.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp2.0/QuickstreamAPI.csproj.CoreCompileInputs.cache
+obj/Debug/netcoreapp2.0/QuickstreamAPI.csproj.FileListAbsolute.txt

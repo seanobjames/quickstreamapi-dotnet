@@ -1,25 +1,30 @@
 namespace QuickstreamAPI
 {
-    public virtual SupplierBusinessCode 
+    public class QuickstreamAPI : IQuickstreamAPI
     {
-        get { return Configuration.SupplierBusinessCode; }
-        set { Configuration.SupplierBusinessCode = value; }
-    }
+        public virtual string SupplierBusinessCode 
+        {
+            get { return Configuration.SupplierBusinessCode; }
+            set { Configuration.SupplierBusinessCode = value; }
+        }
 
-    public virtual PublishableKey 
-    {
-        get { return Configuration.PublishableKey; }
-        set { Configuration.PublishableKey = value; }
-    }
+        public virtual string PublishableKey 
+        {
+            get { return Configuration.PublishableKey; }
+            set { Configuration.PublishableKey = value; }
+        }
 
-    public virtual SecretKey  
-    {
-        get { return Configuration.SecretKey; }
-        set { Configuration.SecretKey = value; }
-    }
+        public virtual string SecretKey  
+        {
+            get { return Configuration.SecretKey; }
+            set { Configuration.SecretKey = value; }
+        }
 
-    public QuickstreamAPI()
-    {
-        Configuration = new Configuration();
+        public Configuration Configuration { get; set; }
+
+        public QuickstreamAPI()
+        {
+            Configuration = new Configuration();
+        }
     }
 }

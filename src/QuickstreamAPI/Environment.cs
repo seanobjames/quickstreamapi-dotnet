@@ -1,3 +1,5 @@
+using QuickstreamAPI.Exceptions;
+
 namespace QuickstreamAPI
 {
     public class Environment
@@ -17,7 +19,7 @@ namespace QuickstreamAPI
         public Environment( string baseURL, string environmentName )
         {
             this.EnvironmentName = environmentName;
-            this.BaseURL = baseURL + "/rest/v" + Configuration.get;
+            this.BaseURL = baseURL + "/rest/v" + Configuration.APIVersion;
         }
 
         private static string DevBaseURL()
@@ -38,7 +40,7 @@ namespace QuickstreamAPI
                 case "production":
                     return Environment.PRODUCTION;
                 default:
-                    throw new ConfigurationException("Not a valid Environment.")
+                    throw new ConfigurationException("Not a valid Environment.");
             }
         }
     }
