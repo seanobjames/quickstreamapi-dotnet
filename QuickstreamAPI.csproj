@@ -2,7 +2,7 @@
   <PropertyGroup>
     <ProductVersion>1</ProductVersion>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
     <RootNamespace>QuickstreamAPI</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
@@ -13,10 +13,5 @@
     <PackageReference Include="System.Net.Http" Version="4.3.3"/>
     <PackageReference Include="Microsoft.NETCore" Version="5.0.2"/>
     <PackageReference Include="OpenCover" Version="4.6.519"/>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System"/>
-    <Reference Include="System.Data"/>
-    <Reference Include="System.Xml"/>
   </ItemGroup>
 </Project>
